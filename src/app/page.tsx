@@ -106,7 +106,7 @@ export default function Home() {
               <CardHeader className="pb-3">
                 <div className="flex items-start justify-between">
                   <div>
-                    <CardTitle className="text-xl group-hover:text-primary transition-colors">
+                    <CardTitle className="text-xl group-hover:underline transition-all">
                       {repo.name}
                     </CardTitle>
                     <CardDescription className="mt-1">
