@@ -158,7 +158,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
             Creat cu ❤️ de echipa{" "}
-            <a href="https://cuponescu.ro" className="text-primary">
+            <a href="https://cuponescu.ro" className="text-primary footer-link">
               Cuponescu
             </a>
           </p>

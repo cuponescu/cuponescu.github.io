@@ -112,14 +112,17 @@
   background-clip: text;
 }
 
-/* Disable all hover effects on buttons */
-button:hover,
-a:hover,
+/* Soft hover effect on buttons */
+[data-slot="button"] {
+  transition: opacity 0.2s ease;
+}
+
 [data-slot="button"]:hover {
-  background-color: inherit !important;
-  color: inherit !important;
-  text-decoration: none !important;
-  transform: none !important;
-  box-shadow: inherit !important;
+  opacity: 0.85;
+}
+
+/* Footer link hover */
+.footer-link:hover {
+  text-decoration: underline;
 }
 
