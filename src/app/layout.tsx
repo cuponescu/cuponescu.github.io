@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://cuponescu.github.io",
   },
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
   robots: {
     index: true,
     follow: true,
@@ -36,6 +41,7 @@ export const metadata: Metadata = {
     siteName: "Cuponescu",
     type: "website",
     locale: "ro_RO",
+    images: ["/favicon.png"],
   },
   twitter: {
     card: "summary_large_image",
