@@ -57,7 +57,7 @@ export default function Home() {
             </div>
             <span className="text-xl font-bold gradient-text">Cuponescu</span>
           </div>
-          <Button asChild variant="outline" className="border-primary/50 hover:bg-primary/10">
+          <Button asChild variant="outline" className="border-primary/50">
             <a href="https://cuponescu.ro" target="_blank" rel="noopener noreferrer">
               Vizitează Cuponescu.ro →
             </a>
@@ -125,7 +125,7 @@ export default function Home() {
                   </code>
                 </div>
                 <div className="flex gap-2">
-                  <Button asChild size="sm" className="flex-1 bg-primary hover:bg-primary/90">
+                  <Button asChild size="sm" className="flex-1 bg-primary">
                     <a 
                       href={`https://github.com/cuponescu/cod-reducere-${repo.slug}`} 
                       target="_blank" 
@@ -137,7 +137,7 @@ export default function Home() {
                       GitHub
                     </a>
                   </Button>
-                  <Button asChild size="sm" variant="outline" className="flex-1 border-accent/50 hover:bg-accent/10">
+                  <Button asChild size="sm" variant="outline" className="flex-1 border-accent/50">
                     <a 
                       href={`https://cuponescu.ro/magazin/${repo.slug}`} 
                       target="_blank" 
