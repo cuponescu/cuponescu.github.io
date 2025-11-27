@@ -143,7 +143,7 @@ export default function Home() {
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
-                      🏷️ Coduri
+                      Cod reducere {repo.name}
                     </a>
                   </Button>
                 </div>
