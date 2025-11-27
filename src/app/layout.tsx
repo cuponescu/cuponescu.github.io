@@ -13,6 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  verification: {
+    google: "SoiSLGj1KGjbWAFyfibDqFZrHM__nklOQ_7dFCz2d4g",
+  },
   title: "Cuponescu - Colecție Coduri de Reducere",
   description: "Pachete NPM open-source cu coduri de reducere pentru cele mai populare magazine online din România. Creat de echipa Cuponescu.",
   keywords: ["coduri reducere", "cupoane", "voucher", "romania", "npm", "open source", "cod reducere", "cod promotional"],
