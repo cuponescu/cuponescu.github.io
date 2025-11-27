@@ -79,7 +79,7 @@ export default function Home() {
         </h1>
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
           Pachete NPM open-source cu coduri de reducere pentru cele mai populare magazine online din România. 
-          Creat de echipa <a href="https://cuponescu.ro" className="text-primary hover:underline">Cuponescu</a>.
+          Creat de echipa <a href="https://cuponescu.ro" className="text-primary">Cuponescu</a>.
         </p>
         <div className="flex gap-4 justify-center flex-wrap">
           <Badge variant="outline" className="px-4 py-2 text-sm border-primary/50">
@@ -100,7 +100,7 @@ export default function Home() {
           {repositories.map((repo, index) => (
             <Card 
               key={repo.slug} 
-              className="card-hover bg-card/50 backdrop-blur border-border/50 overflow-hidden group"
+              className="bg-card/50 backdrop-blur border-border/50 overflow-hidden"
               style={{ animationDelay: `${index * 50}ms` }}
             >
               <CardHeader className="pb-3">
@@ -158,7 +158,7 @@ export default function Home() {
         <div className="container mx-auto px-4 text-center">
           <p className="text-muted-foreground">
             Creat cu ❤️ de echipa{" "}
-            <a href="https://cuponescu.ro" className="text-primary hover:underline">
+            <a href="https://cuponescu.ro" className="text-primary">
               Cuponescu
             </a>
           </p>
