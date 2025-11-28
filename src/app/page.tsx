@@ -58,7 +58,7 @@ export default function Home() {
             <span className="text-lg md:text-xl font-bold gradient-text">Cuponescu</span>
           </div>
           <Button asChild variant="outline" size="sm" className="border-primary/50 text-xs md:text-sm">
-            <a href="https://cuponescu.ro" target="_blank" rel="noopener noreferrer">
+            <a href="https://cuponescu.ro" target="_blank" rel="noopener">
               <span className="hidden sm:inline">Vizitează </span>Cuponescu.ro
             </a>
           </Button>
@@ -141,7 +141,7 @@ export default function Home() {
                     <a 
                       href={`https://cuponescu.ro/magazin/${repo.slug}`} 
                       target="_blank" 
-                      rel="noopener noreferrer"
+                      rel="noopener"
                     >
                       Cod reducere {repo.name}
                     </a>
