@@ -127,7 +127,7 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row gap-2">
                   <Button asChild size="sm" className="bg-primary text-xs md:text-sm">
                     <a 
-                      href={`https://github.com/cuponescu/cod-reducere-${repo.slug}`} 
+                      href={`https://cuponescu.github.io/cod-reducere-${repo.slug}/`} 
                       target="_blank" 
                       rel="noopener noreferrer"
                     >
