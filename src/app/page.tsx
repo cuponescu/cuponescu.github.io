@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const repositories = [
   { name: "Answear", slug: "answear", category: "Fashion" },
   { name: "Best Value", slug: "best-value", category: "Retail" },
+  { name: "Bookzone", slug: "bookzone", category: "Cărți" },
   { name: "carVertical", slug: "carvertical", category: "Auto" },
   { name: "Carturesti", slug: "carturesti", category: "Cărți" },
   { name: "Dr Max", slug: "dr-max", category: "Farmacie" },
