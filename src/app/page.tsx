@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 const repositories = [
   { name: "Answear", slug: "answear", category: "Fashion" },
   { name: "Best Value", slug: "best-value", category: "Retail" },
+  { name: "carVertical", slug: "carvertical", category: "Auto" },
   { name: "Carturesti", slug: "carturesti", category: "Cărți" },
   { name: "Dr Max", slug: "dr-max", category: "Farmacie" },
   { name: "Elefant", slug: "elefant", category: "Cărți & Jucării" },
@@ -21,6 +22,7 @@ const repositories = [
   { name: "Sinsay", slug: "sinsay", category: "Fashion" },
   { name: "Spring Farma", slug: "spring-farma", category: "Farmacie" },
   { name: "Spy Shop", slug: "spy-shop", category: "Securitate" },
+  { name: "Trendyol", slug: "trendyol", category: "Fashion" },
 ];
 
 const categoryColors: Record<string, string> = {
@@ -36,6 +38,7 @@ const categoryColors: Record<string, string> = {
   "Outdoor": "bg-lime-500/20 text-lime-300 border-lime-500/30",
   "Pet Shop": "bg-yellow-500/20 text-yellow-300 border-yellow-500/30",
   "Securitate": "bg-red-500/20 text-red-300 border-red-500/30",
+  "Auto": "bg-sky-500/20 text-sky-300 border-sky-500/30",
 };
 
 export default function Home() {
